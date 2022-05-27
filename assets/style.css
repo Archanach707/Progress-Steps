@@ -53,9 +53,9 @@ body {
   left: 0;
   transform: translateY(-50);
   height: 4px;
-  width: 0%;
+  width:  0%;
   z-index: -1;
-  transition: 0.4s ease;
+  transition: 0.4s ease; 
 }
 
 .circle {
@@ -90,6 +90,10 @@ body {
 .btn:active {
   transform: scale(0.98);
 }
+
+.btn:focus {
+  outline: 0;
+}   
 
 .btn:disabled {
   background-color: var(--line-border-empty);
